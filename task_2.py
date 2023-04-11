@@ -3,8 +3,6 @@
 """
 
 
-
-
 class DocMeta(type):
     def __init__(self, *args, **kwargs):
         self.__instance = None
